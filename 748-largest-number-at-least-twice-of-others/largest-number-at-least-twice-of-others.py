@@ -7,6 +7,7 @@ class Solution(object):
                 continue
             elif num[-1] < 2* nums[i]:
                 flag=False
+                break
         if flag:
             z=nums.index(num[-1])
             return z
